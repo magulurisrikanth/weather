@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.weather-info {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* src/App.css */
+
+/* Add more specific styles for each icon as needed */
+.sun {
+  color: #ffcc00; /* Sun icon color */
+}
+
+.cloud {
+  color: #888888; /* Cloud icon color */
+}
+
+.rain {
+  color: #0000ff; /* Rain icon color */
+}
+
+.snow {
+  color: #ffffff; /* Snow icon color */
+}
+
+.wind {
+  color: #444444; /* Wind icon color */
 }
